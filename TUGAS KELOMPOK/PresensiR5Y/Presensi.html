@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="Logo Ry.png">
+    <title>Presensi Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        select, button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Presensi Kelas R5Y</h1>
+    <div class="container">
+        <form id="presensiForm">
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <select id="nama" name="nama" required>
+                    <option value="Dian Oktaviani Olihta">Dian Oktaviani Olihta</option>
+                    <option value="Khairunnisa">Khairunnisa</option>
+                    <option value="Rekha Amelia">Rekha Amelia</option>
+                    <option value="Abdul Azis">Abdul Azis</option>
+                    <option value="Muhammad Safi Hidayatullah Akbar">Muhammad Safi Hidayatullah Akbar</option>
+                    <option value="Guntur Prihandoko">Guntur Prihandoko</option>
+                    <option value="Taufik Hidayat">Taufik Hidayat</option>
+                    <option value="Muhammad Arrasy Yudistian">Muhammad Arrasy Yudistian</option>
+                    <option value="Aldy Nur Hidayat">Aldy Nur Hidayat</option>
+                    <option value="Adriansyah Dwi Saputra">Adriansyah Dwi Saputra</option>
+                    <option value="Rio Ferdian Saputra">Rio Ferdian Saputra</option>
+                    <option value="Tafarel Hutama Putra">Tafarel Hutama Putra</option>
+                    <option value="Muqsith Ali Rifqi">Muqsith Ali Rifqi</option>
+                    <option value="Amanda Susanti">Amanda Susanti</option>
+                    <option value="Rahmad Fitrianto">Rahmad Fitrianto</option>
+                    <option value="Muhammad Ridwan Syayuti">Muhammad Ridwan Syayuti</option>
+                    <option value="Budi Prasetyo">Budi Prasetyo</option>
+                    <option value="Ardhian Putra Susanto">Ardhian Putra Susanto</option>
+                    <option value="Muhammad Ferkhad">Muhammad Ferkhad</option>
+                    <option value="Ilhan Septian Subowo">Ilhan Septian Subowo</option>
+                    <option value="Arief Fachri Rahman">Arief Fachri Rahman</option>
+                    <option value="Ahmad Nurhadi">Ahmad Nurhadi</option>
+                    <option value="Selvia Destri Andani">Selvia Destri Andani</option>
+                    <option value="Rafi Sultan Nillah">Rafi Sultan Nillah</option>
+                    <option value="Muhammad Adam Sugiri">Muhammad Adam Sugiri</option>
+                    <option value="Andika Eza Satria">Andika Eza Satria</option>
+                    <option value="Muhammad Fadillah Akbar">Muhammad Fadillah Akbar</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="npm">NPM</label>
+                <select id="npm" name="npm" required>
+                    <option value="202243502131">202243502131</option>
+                    <option value="202243502132">202243502132</option>
+                    <option value="202243502133">202243502133</option>
+                    <option value="202243502135">202243502135</option>
+                    <option value="202243502136">202243502136</option>
+                    <option value="202243502137">202243502137</option>
+                    <option value="202243502140">202243502140</option>
+                    <option value="202243502142">202243502142</option>
+                    <option value="202243502143">202243502143</option>
+                    <option value="202243502145">202243502145</option>
+                    <option value="202243502147">202243502147</option>
+                    <option value="202243502149">202243502149</option>
+                    <option value="202243502153">202243502153</option>
+                    <option value="202243502156">202243502156</option>
+                    <option value="202243502157">202243502157</option>
+                    <option value="202243502158">202243502158</option>
+                    <option value="202243502162">202243502162</option>
+                    <option value="202243502163">202243502163</option>
+                    <option value="202243502170">202243502170</option>
+                    <option value="202243502172">202243502172</option>
+                    <option value="202243502173">202243502173</option>
+                    <option value="202243502174">202243502174</option>
+                    <option value="202243502179">202243502179</option>
+                    <option value="202243502181">202243502181</option>
+                    <option value="202243502183">202243502183</option>
+                    <option value="202243502186">202243502186</option>
+                    <option value="202243502187">202243502187</option>
+                    <option value="202243502190">202243502190</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="kelas">Kelas</label>
+                <select id="kelas" name="kelas" required>
+                    <option value="Kelas RX">Kelas RX</option>
+                    <option value="Kelas RY">Kelas RY</option>
+                    <option value="Kelas RZ">Kelas RZ</option>
+                </select>
+            </div>
+            <button type="submit">Submit Presensi</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('presensiForm');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+                const nama = document.getElementById('nama').value;
+                const npm = document.getElementById('npm').value;
+                const kelas = document.getElementById('kelas').value;
+            alert(`Presensi berhasil dikirim!\n\nNama : ${nama}\nNPM : ${npm}\nKelas : ${kelas}`);
+        });
+    </script>
+</body>
+</html>

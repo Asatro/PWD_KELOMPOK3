@@ -1,0 +1,174 @@
+/* STYLE MAIN */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 20px; 
+}
+body {
+    background-color: #f0f0f0;
+}
+header img {
+    height: 240px;
+    width: 100%;
+    border-radius: 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+}
+.main {
+    display: flex;
+    overflow: auto;
+}
+.sidebar{
+  width: 25%;
+  margin-top: -5px;
+}
+.section {
+  width: 75%;
+  margin-top: -6px;
+}
+
+/* STYLE DALAM SIDEBAR */
+/* STYLE BIODATA */
+.biodata {
+    margin: 10px;
+    padding: 15px;
+    background-color: #042331;
+    line-height: 1.6;
+    text-align: center;
+}
+.biodata h3 {
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+.biodata ul {
+    padding: 0;
+    background-color: #129cdb;
+    box-shadow: 3px 4px 6px #ffffff;
+    overflow: hidden;
+}
+.biodata li {
+    margin: 0;
+    border-bottom: 1px solid #ffffff;
+    transition: background-color 0.3s ease;
+}
+.biodata li:hover {
+    background-color: #f1f2f6;
+}
+.biodata a {
+    display: block;
+    color: #fefefe;
+    padding: 15px 20px;
+    font-weight: bolder;
+}
+.biodata a:hover {
+    color: #129cdb;
+}
+
+/* STYLE AUDIO & MAP */
+.audio audio{
+    margin-right: 15px;
+    width: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 300px;
+}
+
+/* STYLE" DALAM SECTION */
+/* STYLE JURUSAN */
+.jurusan {
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color: #042331;
+}
+.jurusan a{
+    color: #fefefe;
+}
+.jurusan a:hover{
+    color: #129cdb
+}
+
+/* STYLE JADWAL */
+.jadwal {
+    margin: 10px;
+    padding: 15px;
+    background-color: #042331;
+}
+.jadwal table {
+    /* max-width: 100%; */
+    overflow: auto;
+    display: block;
+    margin: 20px 0;
+    background-color: #ffffffea;
+    /* border-radius: 0; */
+}
+.jadwal thead th {
+    background-color: #1f6069;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid #000000;
+}
+.jadwal tbody td {
+    border: 1px solid #000000;
+}
+.jadwal tbody tr:hover {
+    background-color: #fefefe;
+}
+.jadwal a {
+    /* display: block; */
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 15px;
+}
+.jadwal a:hover {
+    color: #3498db;
+}
+.jadwal .libur {
+    color: #ffffff;
+    background-color: #990707;
+    text-align: center;
+    font-weight: bold;
+}
+.jadwal table {
+    border-collapse: collapse;
+}
+.jadwal td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* STYLE MAHASISWA */
+.mahasiswa {
+    margin: 10px;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #042331;
+    text-align: center;
+}
+.profilmhs {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+.profilmhs:hover {
+    transform: scale(1.2);
+}
+.mahasiswa-container {
+    overflow: auto; 
+}
